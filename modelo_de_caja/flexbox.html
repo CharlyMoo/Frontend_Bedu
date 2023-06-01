@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>FlexBox</title>
+        <style>
+             h1{
+                width:100px;
+                background-color: aquamarine;
+
+                /* Es una forma no muy util de usar padding
+                padding-left: 15px;
+                padding-top: 15px;
+                padding-bottom: 15px;
+                padding-right: 15px; 
+                Esta forma es mas sencilla de leer y trabajar*/
+                /* esto aplcara 15 pixeles a todos los lados
+                padding: 15px; */
+                /* Esto es otra forma: top right bottom left */
+                padding: 10px 5px 5px 0;
+                /* padding: top right&left bottom
+                padding: 10px 5px 20px;
+                */
+
+                /* this is the large way
+                border-style: solid;
+                border-width: 4px;
+                border-color: blue;
+                this is the shorter nomenclature 
+                border: style width color*/
+                border: solid 4px blue;
+                /* Especificar una lado del border*/ 
+                border-bottom-color: green; 
+
+                margin: 20px 10px 20px;
+            }   
+        </style>
+        <link rel="stylesheet" href="estilos.css">
+    </head>
+    <body>
+        <!-- <h1>Hello World</h1>  -->
+        <div class="cuadrado"></div>
+        <div class="cuadrado"></div>
+        <div class="cuadrado"></div>
+
+        <p>Display en bloque</p>
+        <p>Ocupa el 100% del ancho (width)</p>
+        <p>Como es el caso de p, div, etc</p>
+
+        <a href="">Display inline</a>
+        <a href="">ocupa solo el ancho de su contenido</a>
+        <a href="">como es el caso del a, img, etc</a>
+    </body>
+</html>

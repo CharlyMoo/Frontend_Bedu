@@ -1,0 +1,17 @@
+.cuadrado{
+    width: 200px;
+    height: 200px;
+    background: #aaa;
+    margin-bottom: 20px;
+    /*Para poner los cuadrados en linea sigan teniendo su propiedad block pero se muestran en bloque*/
+    display: inline-block;
+    /* Otra alternativa es usar 
+    display:flex;
+    en un contener externo es decir que este sobre <div class="cuadrado"></div>
+    */
+}
+
+a{
+    /* de esta forma el display inline se convierte a display block*/
+    display:block;
+}
