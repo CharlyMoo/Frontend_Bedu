@@ -35,6 +35,23 @@ h1 {
     margin-right: 20px;
   }
 
+  /*
   li {
     display: inline;
+  }*/
+
+  .header > * {
+    display: inline-block;
+  }
+
+  .logo {
+    width: 15%;
+  }
+  
+  .navbar {
+    width: 70%;
+  }
+  
+  .actions {
+    width: 15%;
   }
