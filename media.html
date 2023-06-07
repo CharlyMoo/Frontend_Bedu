@@ -1,0 +1,41 @@
+<!-- <!DOCTYPE html>
+<html>
+    <head>
+
+    </head>
+    <body>
+        <video width="300" height="200"  controls muted poster="./icon.png" autoplay loop>
+            <source src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4" type="video/mp4">
+        </video>
+        <br>
+        <video width="320" height="240" id="video1" muted poster="./icon.png">
+            <source src="https://cdn.videvo.net/videvo_files/video/premium/video0036/small_watermarked/computer_code00_preview.mp4" type="video/mp4"> 
+            su navegador no soporta la etiqueta video 
+        </video>
+        <div>
+            <button onclick="playPause()">&#9658;/||</button>
+            <button onclick="stop()">&#9726;</button>
+            <button onclick="skip(-2)">&lt;&lt;</button>
+            <button onclick="skip(2)">&gt;&gt;</button>
+        </div>
+        <script>
+            var miVideo = document.getElementById("video1");
+            function playPause(){
+              if(miVideo.paused)
+                    miVideo.play();
+                else
+                    miVideo.pause();
+            }
+
+            function stop(){
+                miVideo.pause();
+                miVideo.currentTime = 0;
+            }
+            function skip(value){
+                miVideo.currentTime += value;
+            }
+        </script>
+
+    </body>
+
+</html>  -->

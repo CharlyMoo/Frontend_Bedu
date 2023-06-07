@@ -1,3 +1,8 @@
+*{
+  margin: 0;
+  padding: 0;
+  /* box-sizing: border-box; */
+}
 h1 {
     color: #025157;
   }
@@ -95,4 +100,39 @@ h1 {
   .main{
     margin-top: 140px;
     text-align: center;
+  }
+
+  .promo{
+    display: flex;
+    max-width: 70%;
+    margin: 100px auto ;
+    align-items: center;
+  }
+
+  .explanatory-video{
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .explanatory-video img{
+    margin-top: 10px;
+    width: 30%;
+  }
+
+  article{
+    display: block;
+  }
+
+  .publish > p{
+    margin-top: 15px;
+    margin-bottom: 20px;
+    line-height: 1.5;
+    font-size: 16px;
+    text-align: justify;
+  }
+
+  .publish{
+    flex: 1;
   }
