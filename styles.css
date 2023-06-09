@@ -98,7 +98,7 @@ h1 {
   }
   
   .main{
-    margin-top: 140px;
+    margin-top: 250px;
     text-align: center;
   }
 
@@ -135,4 +135,12 @@ h1 {
 
   .publish{
     flex: 1;
+  }
+
+  .fixed-header{
+    position: fixed;
+    top: 0;
+    left: 0;
+    right: 0;
+    background-color: #fffbcd;
   }
