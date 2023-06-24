@@ -1,0 +1,38 @@
+@media (max-width: 575px){
+    .navbar, .actions{
+        display: none;
+    }
+
+    h1{
+        font-size: 30px;
+    }
+
+    .main{
+        margin-top: 130px;
+    }
+
+    .logo img{
+        width: 70%;
+    }
+
+    .banner > img{
+        width: 100%;
+    }
+
+    .explanatory-video > video {
+        width: 100%;
+    }
+
+    .promo{
+        display: grid;
+    }
+
+    .publish {
+        margin-top: 10px;
+    }
+
+      .publish > h3 {
+        font-size: 25px;
+        line-height: 30px;
+      }
+}
